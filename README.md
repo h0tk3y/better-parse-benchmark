@@ -1,6 +1,6 @@
 # better-parse-benchmark
 
-This repository contains benchmarks for [`better-parse`](https://github.com/h0tk3y/better-parse).
+This repository contains benchmarks for [`h0tk3y/better-parse`](https://github.com/h0tk3y/better-parse).
 
 Currently there's only one benchmark:
 
@@ -8,7 +8,7 @@ Currently there's only one benchmark:
 
 The benchmark inputs have been taken here: https://sap.github.io/chevrotain/performance/
 
-The JSON grammar is a stripped version of (silmeth/jsonParser)[https://github.com/silmeth/jsonParser]
+The JSON grammar is a stripped version of [`silmeth/jsonParser`](https://github.com/silmeth/jsonParser)
 
 Results on Intel(R) Core(TM) i7-7700HQ CPU @ 3.45 GHz:
 
