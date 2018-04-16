@@ -1,0 +1,24 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.2.31'
+    id 'me.champeau.gradle.jmh' version '0.4.5'
+}
+
+group 'com.girhub.h0tk3y.betterParse.benchmark'
+version '1.0-SNAPSHOT'
+
+repositories {
+    jcenter()
+    mavenLocal()
+}
+
+jmh {
+    benchmarkMode = ['thrpt']
+    warmupIterations = 5
+    iterations = 10
+    fork = 3
+}
+
+dependencies {
+    jmh 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
+    jmh 'com.github.h0tk3y.betterParse:better-parse:0.3.3'
+}
